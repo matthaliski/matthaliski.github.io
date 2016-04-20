@@ -200,6 +200,16 @@ html.turbolinks-progress-bar::before {
   }
 }
 
+//
+// Pagination
+//
+// Pagination controls for the front page
+
+.pagination {
+  display: block;
+  text-align: center;
+}
+
 
 //
 // Miscellaneous
@@ -224,4 +234,8 @@ html.turbolinks-progress-bar::before {
   position: absolute;
   left:5px;
   top:5px;
+}
+
+.highlight {
+  padding:1rem;
 }
