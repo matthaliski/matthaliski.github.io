@@ -1,0 +1,81 @@
+.header-logo {
+  width:75px;
+}
+
+.nav-inline {
+  display: inline-block;
+}
+
+
+//
+// The main navigation for the site
+//
+//
+
+.primary-nav {
+  margin-bottom:2rem;
+
+  .navbar-toggleable-sm {
+    margin-top:3rem;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(sm) {
+      display: block !important;
+      margin-top:0;
+      height:38px;
+    }
+
+    .navbar-nav {
+      @include media-breakpoint-up(sm) {
+        display: inline-block !important;
+      }
+    }
+
+    .main-nav-right {
+      @include media-breakpoint-only(xs) {
+        padding-top:1rem;
+        border-top:1px solid $gray-lighter;
+      }
+    }
+
+    .nav-item {
+      width:100%;
+      margin-left:0;
+      margin-bottom:1rem;
+
+      &:last-child {
+        border-bottom:none;
+      }
+
+      @include media-breakpoint-up(sm) {
+        width:auto;
+        margin-left:1rem;
+        border-bottom:none
+      }
+
+      .nav-link {
+        text-align: center;
+        color: $brand-secondary;
+
+        &.btn-secondary-outline:hover {
+          color:#fff;
+        }
+
+        @include media-breakpoint-up(sm) {
+          padding-top:.55rem;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+// Helps break up vertical navs by adding a border below desired item
+.vertical-divider {
+  border-bottom:1px solid lighten($body-bg, 10%);
+}

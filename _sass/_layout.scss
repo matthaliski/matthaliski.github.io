@@ -1,242 +1,227 @@
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+//
+// Body
+//
+//
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+body {
+  overflow-x: hidden;
+
+  > .wrapper {
+    overflow-x: hidden;
+  }
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
+html.turbolinks-progress-bar::before {
+  background-color: $brand-info !important;
+  height: 3px !important;
 }
 
 
+//
+// Container
+//
+//
 
-/**
- * Site footer
- */
+.container {
+  padding-bottom:2.5rem;
+}
+
+
+//
+// Columns
+//
+// When the columns are collapsed on a small screen we should have a little
+// vertical spacing in between.
+
+[class*="col-"] {
+  margin-bottom:3rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom:1rem;
+  }
+}
+
+
+//
+// Frontend footer
+//
+//
+
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
+  color:$gray-light;
+  border-top:1px solid $gray-lighter;
+  border-bottom:1px solid $gray-lighter;
+  padding:2rem 1rem;
+  margin-bottom:2rem;
+  font-family: $font-family-sans-serif;
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
+  h1, h2, h3, h4, h5 {
+    color:$gray-light;
+    text-transform: uppercase;
+  }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+  .nav {
+    li {
+      margin-bottom:1rem;
+      font-family:$font-family-sans-serif;
+      text-transform: uppercase;
+      font-size:0.8rem;
     }
+  }
 
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+  .footer-logo {
+    width:50px;
+  }
+}
+
+
+//
+// Alerts
+//
+//
+
+.alert {
+  margin-bottom:1rem;
+
+  &.alert-rectangle {
+    border-radius: 0;
+  }
+
+  &.alert-alert, &.alert-warning {
+    background-color: $brand-warning;
+    color:darken($brand-warning, 45%);
+  }
+
+  &.alert-notice {
+    background: $brand-info;
+    color:#fff;
+  }
+
+  &.alert-error {
+    background:$brand-danger;
+    color:#fff;
+  }
+}
+
+
+//
+// Images
+//
+//
+
+// Typically found in blog posts
+.img-full-width {
+  margin-bottom:1rem;
+}
+
+
+// We start by displaying:none. JS, if available, removes this class so the image
+// can be shown. A regular image will be shown by a noscript tag
+.img-responsive {
+  display: none;
+}
+
+
+//
+// Pagination
+//
+//
+
+// Aliasing kaminari classes to Bootstrap 4
+.pagination {
+  font-family: $font-family-sans-serif;
+
+  .page, .next, .last, .first, .prev, .disabled {
+    @extend .page-item;
+
+    a {
+      @extend .page-link;
+      background-color:transparent;
+      border-color:$gray-lightest;
+      color:$gray;
+
+      &:hover {
+        background-color:darken($brand-primary, 7%);
+        color:#fff;
+        border-color:darken($brand-primary, 10%);
+      }
     }
+  }
 }
 
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+
+//
+// Full-width bands
+//
+// Bands spanning the width of the page with solid background colors
+
+.band {
+  width:100%;
+  padding:80px 0;
+  position: relative;
+
+  &:before {
+    content:'';
+    background-color: inherit;
+    width:4000px;
+    position: absolute;
+    top:0;
+    left:-2000px;
+    height:100%;
+    z-index: -1;
+  }
+
+  .band-title {
+    padding-bottom:2rem;
+    font-size:2.5rem;
+  }
+
+  .band-hr {
+    margin-bottom:3rem;
+  }
+
+  &.band-secondary {
+    $headings-color: #fff;
+    background-color: $brand-secondary;
+    color:$gray-lightest;
+
+    h1, h2, h3, h4, h5 {
+      color:$headings-color;
     }
+  }
+
+
+  .quote {
+    text-align: center;
+    background: $brand-secondary;
+    margin-top:0px;
+    color:$brand-primary;
+    padding-bottom:25px;
+  }
 }
 
 
+//
+// Miscellaneous
+//
+// Random shit
 
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
+.avatar-border {
+  width:160px;
+  height:160px;
+  background: $brand-primary;
+  border-radius:50%;
+  position: relative;
+  margin:0 auto 1.5rem;
+  display: block;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+.avatar {
+  width:150px;
+  margin:0 auto 1.5rem auto;
+  display: block;
+  border:5px solid #fff;
+  position: absolute;
+  left:5px;
+  top:5px;
 }

@@ -1,0 +1,81 @@
+.post-list {
+  list-style-type: none;
+}
+
+// A single element within a list of posts
+.post {
+  margin-bottom:3rem;
+  padding-bottom:2.5rem;
+  border-bottom:1px solid $gray-lighter;
+
+  h2 {
+    margin-bottom:1.5rem;
+    font-size:1.5rem;
+
+    > a {
+      color:$brand-secondary;
+
+      &:hover {
+        color:$brand-primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+// Single post
+.single-post {
+
+  h1 {
+    margin-bottom:2rem;
+    font-size:1.7rem;
+
+    @include media-breakpoint-up(md) { font-size:2rem; }
+    @include media-breakpoint-up(md) { font-size:2.5rem; }
+  }
+
+  h2 {
+    font-size:1.4rem;
+
+    @include media-breakpoint-up(md) { font-size:1.7rem; }
+    @include media-breakpoint-up(md) { font-size:2.2rem; }
+  }
+
+  h3 {
+    font-size:1.2rem;
+
+    @include media-breakpoint-up(md) { font-size:1.5rem; }
+    @include media-breakpoint-up(md) { font-size:2.1rem; }
+  }
+
+  h4 {
+    font-size:1rem;
+
+    @include media-breakpoint-up(md) { font-size:1.5rem; }
+    @include media-breakpoint-up(md) { font-size:2rem; }
+  }
+
+  h2, h3, h4, h5 {
+    margin-top:2.5rem;
+    margin-bottom:1.5rem;
+  }
+
+  .meta {
+    border-bottom:1px solid $gray-lighter;
+    padding-bottom:3rem;
+    margin-bottom:3rem;
+  }
+
+  .single-post-footer {
+    border-top:1px solid $gray-lighter;
+    margin-top:2rem;
+    padding-top:2rem;
+  }
+}
+
+
+// Date for the post on a single page
+.single-post-date {
+  text-align: center;
+}

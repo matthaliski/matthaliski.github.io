@@ -1,0 +1,46 @@
+.feature-title {
+  margin-bottom:14px;
+  margin-top:16px;
+  font-size:36px;
+  color:#fff;
+}
+
+p {
+  font-size:1.1rem;
+}
+
+.text-light {
+  color:lighten($body-color, 20%);
+}
+
+.page-title {
+  margin-bottom:3rem;
+  padding:3rem 0 4rem;
+  position: relative;
+
+  // Your primary text
+  .title {
+    font-size:2rem;
+    margin-bottom:1.2rem;
+    color:$brand-primary;
+
+    @include media-breakpoint-up(sm) {
+      font-size:2.2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size:2.5rem;
+    }
+  }
+}
+
+
+blockquote {
+  @extend .blockquote;
+  color:darken($body-color, 10%);
+  border-color:$brand-info;
+}
+
+.home-quote {
+  font-size:1.2rem;
+}

@@ -2,22 +2,32 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="page-title">
+      <div class="avatar-border">
+          <img src="/images/matt-haliski.jpg" alt="Matt Haliski" class="img-circle avatar" />
+      </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h1 class="text-xs-center text-uppercase title">Matt Haliski</h1>
+      <p class="text-xs-center lead">
+        <em>I smash my fingers on the keyboard and occasionally stuff happens.</em>
+      </p>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {{ post.excerpt }}
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
 </div>
