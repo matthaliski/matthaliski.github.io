@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Syntax Highlighting in Rails"
+title:  Syntax Highlighting in Rails
 date:   2016-02-01 05:55:56 -0700
 categories: rails
 ---
