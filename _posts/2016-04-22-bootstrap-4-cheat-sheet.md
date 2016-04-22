@@ -5,6 +5,8 @@ date:   2016-04-22 05:55:56 -0700
 categories: boostrap css javascript
 ---
 
+Get your Bootstrap 4 documentation faster!
+
 ![Bootstrap 4 Cheat Sheet][2]
 
 [This][1] got posted on Hacker News the other day. It's fantastic. It's much quicker

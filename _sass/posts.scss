@@ -24,7 +24,7 @@
   }
 }
 
-.post-content {
+.post-content, .post {
   img {
     @extend .img-fluid;
     margin-bottom: 2rem;
