@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Matt Haliski
+title: About
 subhead: I'm a coder living in Seattle, WA.
 permalink: /about/
 ---
