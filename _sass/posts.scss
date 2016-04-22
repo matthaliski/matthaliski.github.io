@@ -24,6 +24,13 @@
   }
 }
 
+.post-content {
+  img {
+    @extend .img-fluid;
+    margin-bottom: 2rem;
+  }
+}
+
 
 // Single post
 .single-post {
