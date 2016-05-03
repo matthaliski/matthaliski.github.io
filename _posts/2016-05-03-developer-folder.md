@@ -5,7 +5,7 @@ date:   2016-05-03 05:55:56 -0700
 categories: Apple
 ---
 
-I've had a directory on under my user folder called *Development* for ages.
+I've had a directory under my user folder called *Development* for ages.
 Probably since I started coding. Somehow, for the very first time, I saw someone
 using a *Developer* folder and, damnit, they got a pretty icon on their folder.
 
