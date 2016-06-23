@@ -45,4 +45,16 @@ What really sucks, and this isn't entirely their fault, but I know a tech is goi
 
 At that point, it'll probably be another week or so to have some specialized techs come out to evaluate the situation. Considering my past experiences with this, I'll be surprised if I have service by the end of July.
 
-**To be continued...**
+### June 22, 2016
+
+Kevin saves the day! For now...
+
+We had a two hour window from 12-2pm. Kevin came at around 1:00pm. No problems there. He'd looked ahead of time and was aware this was going to be a new hookup. We canvased up and down the street a bit and found the box that serviced ours and our neighbor's home.
+
+At that point he was able to run a temporary coax line down the property line and around to the back of the house where we connected it to an existing entry into the home. He did a nice job of securing the line to the siding and making it look as nice as cable can.
+
+He then went up into the attic and replaced the older splitters so that we had good signal strength to all the rooms. Long story short... I'm updating this post via my own wireless network. I'm also enjoying some High West whiskey to celebrate. Having an internet connection is kind of a big deal to a web dev and should be acknowledged with booze.
+
+A crew will have to come out in the coming weeks to burry the line. We're on a hill with a lot of mature landscaping so that could be a little bonkers, but we'll deal with it as it comes. All in all, today's Comcast experience was great. I expected a fiasco, but it went about as smooth as it could have gone.
+
+Credit where credit is due. 
