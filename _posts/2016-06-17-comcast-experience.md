@@ -58,3 +58,9 @@ He then went up into the attic and replaced the older splitters so that we had g
 A crew will have to come out in the coming weeks to burry the line. We're on a hill with a lot of mature landscaping so that could be a little bonkers, but we'll deal with it as it comes. All in all, today's Comcast experience was great. I expected a fiasco, but it went about as smooth as it could have gone.
 
 Credit where credit is due. 
+
+### July 28, 2016
+
+After running our connection off a temporary line, a crew came out and buried some conduit and ran a new coax line to the back of our property. They had to go under and around existing plants and I would say then did about as good of a job as you could given the circumstances. I didn't come out to any plants that were destroyed and they placed everything else where it belonged.
+
+I believe the only thing that remains is to have one final tech come out and switch over to the permanent line. I'm crossing my fingers that this is an easy switch and this ends up being a _relatively_ painless install.
