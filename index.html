@@ -12,13 +12,36 @@ layout: default
 
       <h1 class="text-xs-center text-uppercase title">Matt Haliski</h1>
       <p class="text-xs-center lead">
-        <em>I'm a coder living in Seattle, WA</em>
+        <em>I smash my fingers on the keyboard and occasionally stuff happens.</em>
       </p>
     </div>
 
-    <p>I spend a good deal of my time writing over at <a href="https://thirtysixcolumns.com">ThirtySixColumns</a> trying to make sense of US politics. Reach out to me on <a href="https://twitter.com/matthaliski">Twitter</a> if you want to say hi.</p>
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+        <li class="post">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {{ post.excerpt }}
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
 
-    <p>Have a good day, if you want to!</p>
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous pull-xs-left">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next pull-xs-right">Next</span>
+      {% endif %}
+    </div>
 
   </div>
 </div>
