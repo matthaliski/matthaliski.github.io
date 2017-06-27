@@ -5,7 +5,7 @@ date:   2016-05-02 05:55:56 -0700
 categories: rails
 ---
 
-It's not going to be easier than ever to kick off a new Rails project and deploy
+It's now going to be easier than ever to kick off a new Rails project and deploy
 to Heroku. [WEBrick][1] is no longer the default server with Rails 5. If you don't
 provide a `Procfile` Heroku is going to help you out and set you up with Puma.
 Production ready out of the box. So... that's cool.
