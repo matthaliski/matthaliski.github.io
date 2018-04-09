@@ -19,16 +19,16 @@ github_username:  matthaliski
 # Build settings
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
 
 # Outputting
-permalink: /:year/:month/:day/:title
+# permalink: /:year/:month/:day/:title
 
 # Site Version
-version: 0.1.0
+# version: 0.1.0
 
 # Pagination
-paginate: 10
-paginate_path: "/blog/:num/"
+# paginate: 10
+# paginate_path: "/blog/:num/"
