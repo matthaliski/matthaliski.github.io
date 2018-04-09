@@ -16,32 +16,12 @@ layout: default
       </p>
     </div>
 
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        <li class="post">
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          {{ post.excerpt }}
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </li>
-      {% endfor %}
-    </ul>
+    <p class="text-xs-center">The real magic is happening over at my company's website, <a href="https://leavingharbor.com">leavingharbor.com</a>. Why don't you head over there to see what adventures I'm currently having.</p>
+    <p class="text-xs-center">
+      <a href="https://leavingharbor.com"><img src="/images/leavingharbor-mark.svg" alt="Leaving Harbor" class='leavingharbor-logo'></a>
+    </p>
+    <br>
 
-    <!-- Pagination links -->
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous pull-xs-left">Previous</a>
-      {% else %}
-        <span class="previous pull-xs-left">Previous</span>
-      {% endif %}
-      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next pull-xs-right">Next</a>
-      {% else %}
-        <span class="next pull-xs-right">Next</span>
-      {% endif %}
-    </div>
 
   </div>
 </div>
