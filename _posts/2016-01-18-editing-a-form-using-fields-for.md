@@ -3,6 +3,7 @@ layout: post
 title:  Editing a form using fields_for in Rails
 date:   2016-01-18 05:55:56 -0700
 categories: rails
+redirecturl: https://leavingharbor.com/posts/editing-a-form-using-fields_for-in-rails
 ---
 
 Let's say you'd like to successfully create or update a nested form using `fields_for`. Our 'parent' will be a Post model and our 'child' will be a Tag model. It's not hard, but there's a bit of a *gotcha* that I found most other resources out there were leaving out.
