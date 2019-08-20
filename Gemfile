@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.5'
+ruby '2.6.3'
 #ruby-gemset=matthaliski
 
 gem 'github-pages', group: :jekyll_plugins
