@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subhead: I'm a coder living in Seattle, WA.
+subhead: I'm a game developer hailing from the Great Northwest.
 permalink: /about/
 ---
 

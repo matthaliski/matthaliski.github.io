@@ -24,10 +24,10 @@ markdown: kramdown
 #   syntax_highlighter: rouge
 
 # Outputting
-permalink: /:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 
 # Site Version
-version: 0.1.0
+version: 0.2.0
 
 # Pagination
 paginate: 10
