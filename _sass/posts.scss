@@ -7,17 +7,17 @@
 .post {
   margin-bottom:3rem;
   padding-bottom:2.5rem;
-  border-bottom:1px solid $gray-lighter;
+  border-bottom:1px solid $gray-300;
 
   h2 {
     margin-bottom:1.5rem;
     font-size:1.5rem;
 
     > a {
-      color:$brand-secondary;
+      color:$secondary;
 
       &:hover {
-        color:$brand-primary;
+        color:$primary;
         text-decoration: none;
       }
     }
@@ -66,13 +66,13 @@
   }
 
   .meta {
-    border-bottom:1px solid $gray-lighter;
+    border-bottom:1px solid $gray-300;
     padding-bottom:3rem;
     margin-bottom:3rem;
   }
 
   .single-post-footer {
-    border-top:1px solid $gray-lighter;
+    border-top:1px solid $gray-300;
     margin-top:2rem;
     padding-top:2rem;
   }

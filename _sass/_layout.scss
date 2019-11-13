@@ -12,7 +12,7 @@ body {
 }
 
 html.turbolinks-progress-bar::before {
-  background-color: $brand-info !important;
+  background-color: $info !important;
   height: 3px !important;
 }
 
@@ -48,15 +48,15 @@ html.turbolinks-progress-bar::before {
 //
 
 .site-footer {
-  color:$gray-light;
-  border-top:1px solid $gray-lighter;
-  border-bottom:1px solid $gray-lighter;
+  color: $gray-600;
+  border-top:1px solid $gray-300;
+  border-bottom:1px solid $gray-300;
   padding:2rem 1rem;
   margin-bottom:2rem;
   font-family: $font-family-sans-serif;
 
   h1, h2, h3, h4, h5 {
-    color:$gray-light;
+    color:$gray-600;
     text-transform: uppercase;
   }
 
@@ -88,17 +88,17 @@ html.turbolinks-progress-bar::before {
   }
 
   &.alert-alert, &.alert-warning {
-    background-color: $brand-warning;
-    color:darken($brand-warning, 45%);
+    background-color: $warning;
+    color:darken($warning, 45%);
   }
 
   &.alert-notice {
-    background: $brand-info;
+    background: $info;
     color:#fff;
   }
 
   &.alert-error {
-    background:$brand-danger;
+    background:$danger;
     color:#fff;
   }
 }
@@ -137,13 +137,13 @@ html.turbolinks-progress-bar::before {
     a {
       @extend .page-link;
       background-color:transparent;
-      border-color:$gray-lightest;
-      color:$gray;
+      border-color:$gray-200;
+      color:$gray-600;
 
       &:hover {
-        background-color:darken($brand-primary, 7%);
+        background-color:darken($primary, 7%);
         color:#fff;
-        border-color:darken($brand-primary, 10%);
+        border-color:darken($primary, 10%);
       }
     }
   }
@@ -182,8 +182,8 @@ html.turbolinks-progress-bar::before {
 
   &.band-secondary {
     $headings-color: #fff;
-    background-color: $brand-secondary;
-    color:$gray-lightest;
+    background-color: $secondary;
+    color:$gray-200;
 
     h1, h2, h3, h4, h5 {
       color:$headings-color;
@@ -193,9 +193,9 @@ html.turbolinks-progress-bar::before {
 
   .quote {
     text-align: center;
-    background: $brand-secondary;
+    background: $secondary;
     margin-top:0px;
-    color:$brand-primary;
+    color:$primary;
     padding-bottom:25px;
   }
 }
@@ -219,7 +219,7 @@ html.turbolinks-progress-bar::before {
 .avatar-border {
   width:160px;
   height:160px;
-  background: $brand-primary;
+  background: $primary;
   border-radius:50%;
   position: relative;
   margin:0 auto 1.5rem;
