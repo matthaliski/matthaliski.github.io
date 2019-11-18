@@ -9,6 +9,10 @@
   padding-bottom:2.5rem;
   border-bottom:1px solid $gray-300;
 
+  &:last-child {
+    border-bottom: none;
+  }
+
   h2 {
     margin-bottom:1.5rem;
     font-size:1.5rem;
@@ -66,9 +70,9 @@
   }
 
   .meta {
-    border-bottom:1px solid $gray-300;
-    padding-bottom:3rem;
-    margin-bottom:3rem;
+    border-bottom: 1px solid $gray-300;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .single-post-footer {
