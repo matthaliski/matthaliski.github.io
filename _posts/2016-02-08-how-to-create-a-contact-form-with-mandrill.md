@@ -3,7 +3,6 @@ layout: post
 title:  How to create a contact form with Mandrill
 date:   2016-02-08 05:55:56 -0700
 categories: rails email
-redirecturl: https://leavingharbor.com/posts/how-to-create-a-contact-form-using-rails-and-mandrill
 ---
 
 Let's build a simple contact form for your Rails driven website that uses [Mandrill](http://mandrill.com/) as the desired email server. Mandrill lets us offload the management of setting up and running an email server ourselves and, therefore, relieving ourselves of a massive headache. Mandrill starts you with 2,000 free trial sends which is more than enough to decide if you're going to like it.

@@ -3,7 +3,6 @@ layout: post
 title:  ActionMailer SMTP settings for SendGrid (Rails)
 date:   2017-03-30 05:55:56 -0700
 categories: coding, rails
-redirecturl: https://leavingharbor.com/posts/actionmailer-smtp-settings-for-sendgrid-rails
 ---
 
 Okay, I got no Google hits for this. Here's a tip if you're using SendGrid in a Rails app for your transactional emails. A while back you needed to provide your SendGrid username and password (hopefully via environment variables), but now you can use an app-specific api key.

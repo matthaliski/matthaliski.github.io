@@ -3,7 +3,6 @@ layout: post
 title:  Developer folder on your Mac
 date:   2016-05-03 05:55:56 -0700
 categories: Apple
-redirecturl: https://leavingharbor.com/posts/developer-folder-on-your-mac
 ---
 
 I've had a directory under my user folder called *Development* for ages.

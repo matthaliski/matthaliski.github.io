@@ -3,7 +3,6 @@ layout: post
 title:  The Comcast Experience
 date:   2016-06-17 05:55:56 -0700
 categories: internet
-redirecturl: https://leavingharbor.com/posts/the-comcast-experience
 ---
 
 I'm going to use this post to chronicle my experience of transferring Comcast's Xfinity TV and internet service over to a new (to me) house. Let's face it, they've pumped a ton of ad dollars into campaigns stating they'll be the *one* friend who will be there to help you while others bail on you during your move.

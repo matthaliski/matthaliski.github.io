@@ -219,7 +219,6 @@ html.turbolinks-progress-bar::before {
 .avatar-border {
   width:160px;
   height:160px;
-  background: $primary;
   border-radius:50%;
   position: relative;
   margin:0 auto 1.5rem;
@@ -236,12 +235,12 @@ html.turbolinks-progress-bar::before {
   top:5px;
 }
 
-.highlight {
-  padding:1rem;
-}
-
 .leavingharbor-logo {
   width: 130px;
   height: 130px;
   margin: 20px auto 10px;
+}
+
+.logo-text {
+  line-height: 14px;
 }

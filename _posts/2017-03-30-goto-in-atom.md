@@ -3,7 +3,6 @@ layout: post
 title:  Setting Up Goto Declaration in Atom
 date:   2017-03-30 05:55:56 -0700
 categories: coding
-redirecturl: https://leavingharbor.com/posts/setting-up-goto-declaration-in-atom
 ---
 
 #### Update (screw this)

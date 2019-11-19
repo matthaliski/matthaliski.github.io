@@ -16,3 +16,13 @@ I want fans to visit Quack Project to stay current on the latest Oregon Ducks sp
 This website is brand new, which means there will be the occasional bug that crops up. I'll be doing my best to take care of those as they appear and appreciate your patience. I welcome any and all suggestions for website improvements or features you think would be useful to other users. This truly is a *project* for me and any help is truly appreciated.
 
 I've got lots to do, so that's it for this post. If you're a Duck fan, be sure to [check it out](https://quackproject.com).
+
+```ruby
+def how_good_are_codeblocks
+  puts "is syntax highlighting working?"
+end
+```
+
+```ruby
+@import "tacos";
+```
