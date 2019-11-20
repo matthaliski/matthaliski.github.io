@@ -11,13 +11,13 @@ pre {
 code {
   background: $gray-100;
   padding: .2em .4em;
-  color: $red;
+  color: #9D6D6F;
 }
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { font-weight: bold } /* Keyword */
+.highlight .k { font-weight: bold; color: #843434; } /* Keyword */
 .highlight .cm { font-style: italic } /* Comment.Multiline */
 .highlight .c1 { font-style: italic } /* Comment.Single */
 .highlight .cs { font-style: italic } /* Comment.Special */
@@ -31,11 +31,14 @@ code {
 .highlight .kn { font-weight: bold } /* Keyword.Namespace */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
 .highlight .s { font-style: italic } /* Literal.String */
-.highlight .nc { font-weight: bold } /* Name.Class */
+.highlight .n { color: #77413e; } /* Property */
+.highlight .nc { font-weight: bold; color: #6a2659; } /* Name.Class */
+.highlight .nf { color: #9d2965; } /* Method name */
 .highlight .ni { font-weight: bold } /* Name.Entity */
 .highlight .ne { font-weight: bold } /* Name.Exception */
-.highlight .nn { font-weight: bold } /* Name.Namespace */
-.highlight .nt { font-weight: bold } /* Name.Tag */
+.highlight .nl { color: #62245e; } /* Method name */
+.highlight .nn { font-weight: bold; color: #534141; } /* Name.Namespace */
+.highlight .nt { font-weight: bold; color: #843434; } /* Name.Tag */
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .sb { font-style: italic } /* Literal.String.Backtick */
 .highlight .sc { font-style: italic } /* Literal.String.Char */

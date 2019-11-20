@@ -38,7 +38,7 @@ jekyll-archives:
 permalink: /blog/:year/:month/:day/:title
 
 # Site Version
-version: 0.2.0
+version: 1.2.0
 
 # Pagination
 paginate: 10

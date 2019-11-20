@@ -29,7 +29,7 @@ end
 
 Let's also say that I'm lazy or rushed and I buried this helper in an unknown file. Later, I come across its usage in a view:
 
-```html
+```erb
 <%= content_tag :h1, site_title('this page is awesome') %>
 ```
 

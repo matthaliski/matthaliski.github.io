@@ -7,7 +7,7 @@ title: Archive
   <div class="col-sm-10 col-lg-8 mx-auto">
     <div class="page-title">
       <h1 class="text-center text-uppercase">Blog</h1>
-      <h5 class="text-center text-muted font-italic mb-5">Posts tagged with: {{ page.title }}</h5>
+      <h5 class="text-center text-muted font-italic">Posts tagged with: {{ page.title }}</h5>
     </div>
     <div class="posts">
       {% for post in page.posts %}
@@ -16,7 +16,7 @@ title: Archive
           <a href="{{ post.url }}" class="text-primary no-decoration">
             <h5 class="post-title text-uppercase">{{ post.title }}</h5>
           </a>
-          <div class="text-muted mb-3">
+          <div class="text-muted">
             {{ post.date | date: '%B %d, %Y' }}
             <ul class="list-inline list-tags d-inline-block ml-3">
               <li class="list-inline-item">Tags:</li>
