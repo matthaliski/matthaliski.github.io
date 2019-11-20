@@ -34,8 +34,10 @@
 
 blockquote {
   @extend .blockquote;
-  color:darken($body-color, 10%);
-  border-color:$info;
+  color: $gray-600;
+  border-color: $info;
+  border-left: 5px solid $body-color;
+  padding-left: 20px;
 }
 
 .home-quote {

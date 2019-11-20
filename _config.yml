@@ -19,6 +19,17 @@ github_username:  matthaliski
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: archive
+  permalinks:
+    tag: '/blog/tag/:name/'
+
 # kramdown:
 #   input: GFM
 #   syntax_highlighter: rouge

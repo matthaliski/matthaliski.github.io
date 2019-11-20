@@ -2,7 +2,7 @@
 layout: post
 title:  Respect the past. Don't immortalize it.
 date:   2016-01-21 05:55:56 -0700
-categories: life
+tags: life
 ---
 
 *For the love of god*. That travel shampoo from your hotel stay on your honeymoon is not the embodiment of your marriage. You can throw it away, I promise.

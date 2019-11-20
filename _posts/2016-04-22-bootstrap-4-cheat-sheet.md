@@ -2,7 +2,7 @@
 layout: post
 title:  Bootstrap 4 Cheat Sheet
 date:   2016-04-22 05:55:56 -0700
-categories: boostrap css javascript
+tags: [boostrap, css, javascript]
 ---
 
 Get your Bootstrap 4 documentation faster!

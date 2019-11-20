@@ -2,7 +2,7 @@
 layout: post
 title:  Quack Project - The Home of Oregon Duck Fans
 date:   2017-08-27 05:55:56 -0700
-categories: oregon, ducks, football
+tags: [oregon, ducks, football]
 ---
 
 I've spent the last couple of months writing code in anticipation for football season on something I'm calling [Quack Project](https://quackproject.com).

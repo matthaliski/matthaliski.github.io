@@ -6,8 +6,19 @@ layout: default
   <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 single-post">
 
       <h1 class="text-center text-uppercase" itemprop="name headline">{{ page.title }}</h1>
-      <div class="meta">
-        <p class="single-post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+      <div class="meta text-center text-muted">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% if page.author %}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% endif %}
+        {% if page.tags != empty %}
+          <ul class="nav nav-inline ml-3">
+            <li class="list-inline-item">Tags:</li>
+            {% for tag in page.tags %}
+            <li class="list-inline-item"><a href="{{ site.baseurl }}/blog/tag/{{ tag }}">{{ tag|slugize }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
 
       <div class="post-content" itemprop="articleBody">

@@ -2,7 +2,7 @@
 layout: post
 title:  Syntax Highlighting in Rails
 date:   2016-02-01 05:55:56 -0700
-categories: rails
+tags: rails
 ---
 
 Your Rails driven website has the need to display some code. It's not good enough to just get proper indentation, you'd like to have some decent syntax highlighting. Maybe something like following.

@@ -2,7 +2,7 @@
 layout: post
 title:  Completing Our Move to Seattle
 date:   2016-06-07 05:55:56 -0700
-categories: life
+tags: [life]
 ---
 
 We started our move to Seattle from Salt Lake City in November of 2015 and are now days away from completing that journey as we move into our new-to-us house. The Seattle housing market is [insane][1] and we knew we were going to get killed. Moving here 10 years ago would have been a smarter idea.

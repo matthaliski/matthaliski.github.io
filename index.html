@@ -18,11 +18,19 @@ layout: default
     <ul class="post-list">
       {% for post in paginator.posts %}
       <li class="post">
-        <h2>
+        <h5 class="post-title text-uppercase">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h5>
+        <div class="text-muted mb-3">
+          {{ post.date | date: '%B %d, %Y' }}
+          <ul class="list-inline list-tags d-inline-block ml-3">
+            <li class="list-inline-item">Tags:</li>
+            {% for tag in post.tags %}
+            <li class="list-inline-item"><a href="{{ site.baseurl }}/blog/tag/{{ tag }}">{{ tag|slugize }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
         {{ post.excerpt }}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
       {% endfor %}
     </ul>

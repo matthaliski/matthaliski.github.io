@@ -2,7 +2,7 @@
 layout: post
 title:  Heroku defaults to Puma for Rails 5
 date:   2016-05-02 05:55:56 -0700
-categories: rails
+tags: [rails]
 ---
 
 It's now going to be easier than ever to kick off a new Rails project and deploy
