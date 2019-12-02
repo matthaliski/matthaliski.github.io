@@ -93,3 +93,13 @@
 .post-meta {
   color: $gray-600;
 }
+
+.body, .post-content {
+  a {
+    text-decoration: underline $red;
+
+    &:hover, &:focus {
+      text-decoration: solid underline 2px $red;
+    }
+  }
+}

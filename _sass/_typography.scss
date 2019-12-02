@@ -54,3 +54,14 @@ blockquote {
 .home-quote {
   font-size:1.2rem;
 }
+
+.body {
+  h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    text-transform: uppercase;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

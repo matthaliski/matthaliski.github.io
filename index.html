@@ -18,9 +18,9 @@ layout: default
     <ul class="post-list">
       {% for post in paginator.posts %}
       <li class="post">
-        <h5 class="post-title text-uppercase">
+        <h3 class="post-title text-uppercase">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h5>
+        </h3>
         <div class="text-muted mb-3">
           {{ post.date | date: '%B %d, %Y' }}
           <ul class="list-inline list-tags d-inline-block ml-3">

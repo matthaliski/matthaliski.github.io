@@ -244,3 +244,9 @@ html.turbolinks-progress-bar::before {
 .logo-text {
   line-height: 14px;
 }
+
+.body {
+  img {
+    @extend .img-fluid;
+  }
+}
