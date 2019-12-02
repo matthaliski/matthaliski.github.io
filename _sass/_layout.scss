@@ -5,9 +5,13 @@
 
 body {
   overflow-x: hidden;
+  min-height: 100vh;
 
   > .wrapper {
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -23,7 +27,8 @@ html.turbolinks-progress-bar::before {
 //
 
 .container {
-  padding-bottom:2.5rem;
+  padding-bottom: 2.5rem;
+  flex-grow: 1;
 }
 
 
@@ -50,10 +55,9 @@ html.turbolinks-progress-bar::before {
 .site-footer {
   color: $gray-600;
   border-top:1px solid $gray-300;
-  border-bottom:1px solid $gray-300;
   padding:2rem 1rem;
-  margin-bottom:2rem;
   font-family: $font-family-sans-serif;
+  flex-shrink: 0;
 
   h1, h2, h3, h4, h5 {
     color:$gray-600;
