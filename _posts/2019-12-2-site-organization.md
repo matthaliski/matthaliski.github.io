@@ -7,4 +7,6 @@ tags: [websites]
 
 Web devs are constantly putting up and pulling down their own sites and I'm no different. So here is my latest attempt at organization. I plan to make this site my informal blog where I'll talk freely about anything. [StayWildGames.com](https://staywildgames.com) will just focus primarily on my company and its endeavors. 
 
-I felt like polluting my company's blog with, let's say, Ruby on Rails content wasn't the best use of that space. But I still want to talk about Rails, Ruby, CSS, etc.
+I felt like polluting my company's blog with, let's say, Ruby on Rails content wasn't the best use of that space. But I still want to talk about Rails, Ruby, CSS, computers, etc. So I can do that here without mucking things up. That's the plan for now. I hope you enjoy. I plan on using this site to give back some of the things I've learned along the way.
+
+See you around.

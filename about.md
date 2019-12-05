@@ -1,3 +1,8 @@
+---
+layout: page
+title: About Matt
+---
+
 ## Introduction
 
 Hello there! Thanks for stopping by. My name is Matt Haliski and I build things on computers. I've spent most of my professional career designing and programming websites while working at various advertising agencies. I now juggle raising our daughter, while working for myself creating games. The transition to game development is relatively new to me, but I'm having a lot of fun exploring this new world.
