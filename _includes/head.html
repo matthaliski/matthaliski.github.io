@@ -30,5 +30,8 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  {% include ga.html %}
+
+  {%- if jekyll.environment == 'production' -%}
+    {% include ga.html %}
+  {%- endif -%}
 </head>
