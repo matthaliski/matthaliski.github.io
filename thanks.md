@@ -38,25 +38,52 @@ Oh, man. Remember gotoandlearn.com?! ActionScript 3 is still probably my most co
 
 Aaron.
 
-I'm pretty sure Aaron only lives a couple miles from me and I hope I bump into him someday. I am glad we Rubyists have him as a core contributor because he's great. Follow him on Twitter for corny jokes and flat-faced cats. He also created [Nokogiri](https://nokogiri.org/), which I used extensively for years without ever even knowing he was the creator. I found out by listening to some random podcast someday. 
+I'm pretty sure Aaron only lives a couple miles from me and I hope to bump into him someday. I am glad we Rubyists have him as a core contributor because he's great. Follow him on Twitter for corny jokes and flat-faced cats. He also created [Nokogiri](https://nokogiri.org/), which I used extensively for years without ever even knowing he was the creator. I found out by listening to some random podcast someday. 
 
 ### [Blender <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://www.blender.org/){:class="text-decoration-none" }
 
+Blender blows my mind. When I was in college getting a minor in Multimedia Design, I was convinced I was going to become a 3D artist. My excitement for the field was often tempered by how expensive 3D software was. It was thousands of dollars just for the software and that didn't include a powerful machine you'd need to run it. Yet, there was Blender, just plugging along. Year after year, they kept taking swings at the giants of their industry. I'm not sure if you've booted it up lately, but it's amazing.
+
+They even inverted their mouse button choices ;)
+
 ### [Rubular <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://rubular.com/){:class="text-decoration-none" }
+
+Regex is banannas and Rubular helps me to figure it out. Simple. Great.
 
 ### [GreenSock <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://greensock.com/){:class="text-decoration-none" }
 
+Another throwback. I don't actually get to use this animation library much anymore, but it was instrumental back when I used to program for Flash. I put this little kick-ass library into thousands of digital banner ads and microsites. Just like Bootstrap, the documentation is simply phenomenal. 
+
 ### [Heroku <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://heroku.com/){:class="text-decoration-none" }
+
+I honestly gave DevOps a shot, but it's not for me. Capistrano, Puppet, Docker... blarg! I just want to `git push heroku master`. Thanks Heroku for making it easy for me to get sites off the ground and not spend all day deploying and patching servers. You are magic.
 
 ### [Bullet gem <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://github.com/flyerhzm/bullet){:class="text-decoration-none" }
 
+I don't come from a backend background so I occasionally end up with some `n+1` queries. Bullet tells me I'm dumb and how to fix it. Thanks.
+
+### [Devise gem <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://github.com/plataformatec/devise){:class="text-decoration-none" }
+
+Can you roll your own auth? I'm pretty sure I couldn't and I certainly wouldn't do as good of a job as the folks who contributed to the Devise gem. It's gone in nearly every Rails project I've ever done and I am eternally grateful for all the work they do. 
+
 ### [Unity <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://unity.com/){:class="text-decoration-none" }
+
+I'm really new to Unity, but it feels very comfortable. I've built complex Flash applications in the past and had to build so many things that come built right into Unity. I think it's great that I can get started for free as I learn. I'm sure I'll have more to say in the future, but I still feel like a baby when I use it.
 
 ### Colleagues
 
+A lot of people have helped me over the years in ways I'm extremely grateful for. I'm constantly amazed how our community shares knowledge and experience with one another. It would probably freak most of the world out to learn that some of our most important digital infrastructure is built by self-taught nerds who learned by shooting the shit with each other and banging on stuff in production. But that's the part I love.
+
+So thanks to those that stood by while I tried my best to get things to work. Thanks for being forgiving when marketing email blasts went out to thousands of customers with a much, much, *much* lower price than was in the ad copy. Thanks for sharing keyboard shortcuts and other ways to do my job faster. I hope to pay all your kindness forward and share as much as I can as I continue learning.
+
 ### University of Oregon
 
-Forget learning the applications, learn the fundamentals.
+I have a lot to thank the University of Oregon for, but I'd like to specifically acknowledge one thing. I almost walked out of a class sophomore year because the professor of a course on design software opened by saying her course wasn't going to focus on learning the software. Rather, she was going to focus on art concepts and fundamentals. She made a point of saying, by the time the course was done, Adobe would have changed half the buttons and introduced new ones. It's just part of the process and we'd be required to keep up with it on our own.
+
+At the time, this distinction frustrated me. I believed mastering the software itself was paramount. It would be some time before I began to grasp the philosophy emphasized in that course, but now I think about it daily. My original mindset was that of a budding guitarist who just wanted to learn how to play Free Bird while skipping over learning how to play scales, notes and chords. Believing that fundamentals matter has been one of the more important tenets of my career.
 
 ### Melissa
  
+Last but not least, thanks to my wife, Melissa. Thanks for letting me hole up in front of a computer screen for weeks at a time to complete projects. Thanks for listening (or pretending to) to concepts and weird words that have no meaning to you. Thanks for letting me spend money on servers, computers, cameras, and other gadgets *essential* to a programmer's life.
+
+Having good teammates makes things so much easier and I can't imagine where I'd be today without your help. Thank you.
