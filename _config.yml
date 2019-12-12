@@ -22,6 +22,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-autoprefixer
+
 
 jekyll-archives:
   enabled:
