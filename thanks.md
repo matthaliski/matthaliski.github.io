@@ -24,7 +24,7 @@ I've followed [@mdo](https://twitter.com/mdo) and [@fat](https://twitter.com/fat
 
 This has little to do with my actual work, but it's no less important. There are a lot of meal plan startups out there, but Cook Smarts fits our family the best. If you want to eat well and enjoy cooking while not being bothered with meal planning and grocery lists, then Cook Smarts is perfect for you. It's also budget-friendly. 
 
-It's also insane to me that, as I understand it, they've done all the leg work on their website themselves. Like, they just whipped out the web stuff on the side while they ran their core business. They make me feel lazy. Keep it going over there Jess and company!  
+It's also insane to me that, as I understand it, they've done all the leg work on their website themselves. Like, they just whipped out the web stuff on the side while they ran their core business. They make me feel lazy. Keep it going over there, Jess and company!  
 
 ### [Michael Hartl and Rails Tutorial <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://www.railstutorial.org/){:class="text-decoration-none" }
 
@@ -44,7 +44,7 @@ I'm pretty sure Aaron only lives a couple miles from me and I hope to bump into 
 
 Blender blows my mind. When I was in college getting a minor in Multimedia Design, I was convinced I was going to become a 3D artist. My excitement for the field was often tempered by how expensive 3D software was. It was thousands of dollars just for the software and that didn't include a powerful machine you'd need to run it. Yet, there was Blender, just plugging along. Year after year, they kept taking swings at the giants of their industry. I'm not sure if you've booted it up lately, but it's amazing.
 
-They even inverted their mouse button choices ;)
+They even inverted their mouse button choices as of 2.8 ;)
 
 ### [Rubular <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://rubular.com/){:class="text-decoration-none" }
 
@@ -60,11 +60,11 @@ I honestly gave DevOps a shot, but it's not for me. Capistrano, Puppet, Docker..
 
 ### [Bullet gem <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://github.com/flyerhzm/bullet){:class="text-decoration-none" }
 
-I don't come from a backend background so I occasionally end up with some `n+1` queries. Bullet tells me I'm dumb and how to fix it. Thanks.
+I don't come from a backend background, so I occasionally end up with some `n+1` queries. Bullet tells me I'm dumb and how to fix it. Thanks.
 
 ### [Devise gem <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://github.com/plataformatec/devise){:class="text-decoration-none" }
 
-Can you roll your own auth? I'm pretty sure I couldn't and I certainly wouldn't do as good of a job as the folks who contributed to the Devise gem. It's gone in nearly every Rails project I've ever done and I am eternally grateful for all the work they do. 
+Can you roll your own auth? I'm pretty sure I can't and I certainly wouldn't do as good of a job as the folks who contributed to the Devise gem. It's gone in nearly every Rails project I've ever done and I am eternally grateful for all the work they do. 
 
 ### [Unity <sup><i class="fas fa-external-link fa-xs"></i></sup>](https://unity.com/){:class="text-decoration-none" }
 
@@ -78,7 +78,7 @@ So thanks to those that stood by while I tried my best to get things to work. Th
 
 ### University of Oregon
 
-I have a lot to thank the University of Oregon for, but I'd like to specifically acknowledge one thing. I almost walked out of a class sophomore year because the professor of a course on design software opened by saying her course wasn't going to focus on learning the software. Rather, she was going to focus on art concepts and fundamentals. She made a point of saying, by the time the course was done, Adobe would have changed half the buttons and introduced new ones. It's just part of the process and we'd be required to keep up with it on our own.
+I have a lot to thank the University of Oregon for, but I'd like to specifically acknowledge one thing. I almost walked out of a class sophomore year because the professor of a course on design software opened by saying her course wasn't going to focus on learning the software. Rather, she was going to focus on art concepts and fundamentals. She made a point of saying, by the time the course was done, Adobe will have changed half the buttons and introduced new ones. It's just part of the process and we'd be required to keep up with it on our own.
 
 At the time, this distinction frustrated me. I believed mastering the software itself was paramount. It would be some time before I began to grasp the philosophy emphasized in that course, but now I think about it daily. My original mindset was that of a budding guitarist who just wanted to learn how to play Free Bird while skipping over learning how to play scales, notes and chords. Believing that fundamentals matter has been one of the more important tenets of my career.
 
