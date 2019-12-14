@@ -15,7 +15,7 @@ layout: default
           <ul class="nav nav-inline ml-3">
             <li class="list-inline-item">Tags:</li>
             {% for tag in page.tags %}
-            <li class="list-inline-item"><a href="{{ site.baseurl }}/blog/tag/{{ tag }}">{{ tag|slugize }}</a></li>
+            <li class="list-inline-item"><a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify }}">{{ tag|slugize }}</a></li>
             {% endfor %}
           </ul>
         {% endif %}
